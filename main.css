@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to left top, blue, red);
+  background-repeat: no-repeat;
+  background: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(231, 31, 107);
+  font-style: italic;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.landing .name {
+  font-size: 100px;
+  line-height: 60px;
+}
+.landing .title {
+  padding-left: 30px;
+  padding-top: 40px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+.landing .title span {
+  border-right: white solid 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.landing .navbar {
+  padding-top: 20px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  display: flex;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.landing .navbar ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 30px;
+}
+.landing .navbar ul li {
+  padding-right: 40px;
+}
+.landing .navbar ul li img {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+
+.about-me {
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 400px;
+  text-align: center;
+}
+.about-me h1 {
+  padding-bottom: 20px;
+}
+
+.websites {
+  text-align: center;
+  margin-top: 500px;
+}
+.websites .website-grid {
+  display: flex;
+  justify-content: center;
+}
+.websites .website-grid img {
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+}
+
+.applications {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+footer {
+  max-height: 10%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dropDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100);
+  }
+}
+@keyframes dropDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100);
+  }
+}/*# sourceMappingURL=main.css.map */

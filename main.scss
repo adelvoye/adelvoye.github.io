@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  background: linear-gradient(to left top, blue, red);
+  background-repeat: no-repeat;
+  background: cover
+  
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(231, 31, 107);
+  font-style: italic;
+}
+
+
+
+// landing //
+
+.landing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 100px;
+     
+
+    .name {
+      font-size: 100px;
+      line-height: 60px;
+      
+    }
+
+    .title {
+      padding-left: 30px;
+      padding-top: 40px;
+      animation-name: fadeIn;
+      animation-duration: 2s;
+      
+      span {
+        border-right: white solid 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+
+      
+      
+    }
+
+    .navbar {
+      padding-top: 20px;
+      animation-name: fadeIn;
+      animation-duration: 2s;
+      display: flex;
+
+      @keyframes fadeIn {
+        from{opacity: 0}
+        to{opacity: 1}
+      }
+
+
+      ul  {
+        list-style-type: none;
+        display: flex;
+        font-size: 30px;
+        
+        li {
+          padding-right: 40px;
+
+          img {
+            height: 40px;
+            width: 40px;
+            padding: 0;
+          }
+        }
+      }
+    }
+}
+
+
+// end of landing //
+
+//about me//
+
+.about-me {
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 400px;
+  text-align: center;
+  
+  h1 {
+    padding-bottom: 20px;
+  }
+  
+}
+
+//end of about me//
+
+
+// Portfolio//
+
+.websites {
+  text-align: center;
+  margin-top: 500px;
+
+
+.website-grid {
+  display: flex;
+  justify-content: center;
+
+
+  img {
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+  }
+}
+}
+
+.applications {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+  
+// End of Work//
+
+
+
+//footer//
+footer {
+  max-height: 10%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+ 
+
+  
+}
+
+// end of footer//  
+
+//keyframes// 
+
+
+@keyframes fadeIn {
+  from{opacity: 0}
+  to{opacity: 1}
+}
+
+@keyframes dropDown {
+  from{transform: translateY(0)}
+  to{transform: translateY(-100)}
+}
+
+
+
+
+
